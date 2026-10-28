@@ -1,4 +1,3 @@
-
 from employee import employee_details
 
 def test_employee_details():
@@ -9,4 +8,4 @@ def test_employee_details():
         "Salary: 5000"
     )
 
-    assert employee_details() == expected
+    assert employee_details("Rahul", "EMP101", "IT", 5000) == expected
