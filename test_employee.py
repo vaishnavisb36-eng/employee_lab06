@@ -6,4 +6,4 @@ def test_employee_details():
 
     expected = "Name:Rahul\nEmployee ID: EMP101\nDepartment:IT\nSalary"
 
-    assert result==expected
+    assert result == expected
