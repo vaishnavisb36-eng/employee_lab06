@@ -18,4 +18,4 @@ def test_employee_details():
             "Department: HR\n"
             "Salary: 40000"
         )
-    assert employee_details("Priya", 102, "HR", 40000) == "Employee Name: Priya\nEmployee ID: 102\nDepartment: HR\nSalary: Rs. 40000"
+    assert employee_details("Priya", 102, "HR", 40000) == expected
